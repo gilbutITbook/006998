@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement; // LoadScene을 사용하기 위해서 중요
 public class ClearDirector : MonoBehaviour {
     void Update() {
         if(Input.GetMouseButtonDown(0)) {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("GameScene");
         }
     }
 }

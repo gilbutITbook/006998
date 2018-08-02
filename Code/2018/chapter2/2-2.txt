@@ -1,0 +1,14 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Test : MonoBehaviour {
+
+    void Start () {
+        // Hello, World를 콘솔뷰에 표시한다
+        Debug.Log("Hello, World");
+    }
+    
+    void Update () {
+    }
+}
